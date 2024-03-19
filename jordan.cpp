@@ -23,5 +23,6 @@ void display(){
     cout << "Total Harga = Rp."<< totalHarga() << endl;
 }
 int main(){
-
+    input();
+    display();
 }
