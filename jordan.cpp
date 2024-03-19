@@ -17,9 +17,11 @@ void input(){
     cin >> Nnike;
 
 } int totalHarga(){
-    return (Nadidas * Hadidas) + (Npuma * Hpuma) + (Ncompass * Hcompass) + (Nnike * hnike) 
+    return (Nadidas * Hadidas) + (Npuma * Hpuma) + (Ncompass * Hcompass) + (Nnike * Hnike); 
 }
-
+void display(){
+    cout << "Total Harga = Rp."<< totalHarga() << endl;
+}
 int main(){
 
 }
