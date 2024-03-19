@@ -20,6 +20,14 @@ void input(){
     return (Nadidas * Hadidas) + (Npuma * Hpuma) + (Ncompass * Hcompass) + (Nnike * Hnike); 
 }
 void display(){
+    cout << endl;
+    cout << "==========================" << endl;
+    cout << endl;
+    cout << "jumlah puma = " << Npuma << endl;
+    cout << "jumlah adidas = " << Nadidas << endl;
+    cout << "jumlah compass = " << Ncompass << endl;
+    cout << "jumlah nika = " << Nnike << endl;
+    cout << endl;
     cout << "Total Harga = Rp."<< totalHarga() << endl;
 }
 int main(){
