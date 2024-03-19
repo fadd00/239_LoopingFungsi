@@ -1,28 +1,28 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main(){
+int main()
+{
     int i;
     string nama;
-    
-    for ( i = 0; i < 7 ; i++)
-    {
-        cout << 1 << endl;
-    }
 
-    for( i = 0 ; i < 5 ; i++ ) {
-        cout <<"masukan nama = ";
-        cin >> nama[i];
+    for (i = 1; i <= 7; i++)
+    {
+        std::cout << i << std::endl;
+    }for(i = 0; i < 5; i++)
+    {
+       cout << "Masukan nama ke-" << i+1 << " : ";
+       cin >> nama;
     }
 
     cout << endl;
-    cout <<"-------------"<< endl;
-    cout <<"kumpulan nama"<< endl;
-
+    cout << "--------------" << endl;
+    cout << "Kumpulan nama" << endl;
     for (i = 0; i < 5; i++)
-    {
-        cout << "namanya adalah" << nama[i] << endl;
+   {
+        std::cout << "Nama ke-" << i+1 << " : " << nama << std::endl;
     }
-    
-    
+
+    return 0;
 }
