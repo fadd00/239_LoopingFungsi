@@ -3,7 +3,7 @@ using namespace std;
 
 string nama;
 int Nadidas, Npuma, Ncompass, Nnike;
-int Hadidas = 100.000, Hpuma = 200.000, Hcompass = 250.000, Hnike = 300.000;
+int Hadidas = 100, Hpuma = 200, Hcompass = 250, Hnike = 300;
 
 void input(){
 
