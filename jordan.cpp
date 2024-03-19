@@ -26,7 +26,7 @@ void display(){
     cout << "jumlah puma = " << Npuma << endl;
     cout << "jumlah adidas = " << Nadidas << endl;
     cout << "jumlah compass = " << Ncompass << endl;
-    cout << "jumlah nika = " << Nnike << endl;
+    cout << "jumlah nike = " << Nnike << endl;
     cout << endl;
     cout << "Total Harga = Rp."<< totalHarga() << endl;
 }
